@@ -1,5 +1,8 @@
 #include "strpcat.h"
 
+#include <string.h>
+#include <stdarg.h>
+
 char *strpcat(char *dest, ...)
 {
 	size_t len;

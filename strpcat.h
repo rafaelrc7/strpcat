@@ -1,9 +1,6 @@
 #ifndef STRPCAT
 #define STRPCAT
 
-#include <string.h>
-#include <stdarg.h>
-
 /*
  *	Concatenates n strings (arg list must be terminated with NULL) to dest.
  *	And returns the address of the terminating '\0' in dest.
